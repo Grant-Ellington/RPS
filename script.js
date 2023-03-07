@@ -59,6 +59,14 @@ if (!userChoice)
     // if user losses, add to losses variable and alert user that they lost
     // alert users of their wins, losses, and ties
     // ask user to play again, if yes call function
+
+    playAgain = prompt('Do you want to paly again')
+
+    if(playAgain){
+        play();
+    }else{
+        alert("Wins:" +wins+ "Ties: " +ties+ "Losses: "+losses)
+    }
   };
   // play the game the first time
   
