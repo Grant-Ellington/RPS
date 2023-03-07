@@ -8,7 +8,7 @@ var options = ["R","P","S"]
 function play() {
 
     var userChoice = prompt('Pick R,P, or S').toUpperCase();
-if (!userChoice) return
+if (!userChoice) 
     // if(userChoice === false){
     //     console.log('it works')
     // };
